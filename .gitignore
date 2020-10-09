@@ -4,4 +4,5 @@ runAsRootWrapper
 shutdown-wrapper
 shutdown-cancel-wrappers
 arm64/auto-comp.sh
-arm64/wrappers-aarm64.zip
+*.zip
+*/*aa*
