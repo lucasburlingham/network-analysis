@@ -5,11 +5,6 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <style>
-        html {
-            scrollbar-color: #ff0000;
-        }
-    </style>
 
 </head>
 
@@ -20,6 +15,7 @@
         <hr>
 
         <div class="jumbotron">
+            <!-- gives a nice place to put the output -->
 
             <?php
             if (array_key_exists('pingtest', $_POST)) {
