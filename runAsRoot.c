@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
       *          arbitary commands if not.
       * */
 
-  system("/bin/sh /path/to/php_shell.sh");
+  system("/bin/sh /home/userName/wrapper-generic.sh");
 
   return 0;
 }
