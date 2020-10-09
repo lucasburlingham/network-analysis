@@ -2,4 +2,5 @@ shutdown-wrapper.c
 shutdown-cancel-wrapper.c
 runAsRootWrapper
 shutdown-wrapper
-shutdown-cancel-wrapper
+shutdown-cancel-wrappers
+arm64/auto-comp.sh
