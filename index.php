@@ -99,10 +99,6 @@
                 $cancelShutdownOutput = shell_exec('/path/to/wrapper/with/command');
             }
 
-
-
-
-
             ?>
 
             <!-- Buttons! Works well on a 3.5" screen, but looks nice on larger ones as well... -->
