@@ -1,3 +1,5 @@
 shutdown-wrapper.c
 shutdown-cancel-wrapper.c
-
+runAsRootWrapper
+shutdown-wrapper
+shutdown-cancel-wrapper
