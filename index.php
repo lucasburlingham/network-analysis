@@ -90,7 +90,7 @@
             }
             function shutdown()
             {
-                echo "Shutting Down in 10 seconds...<br>";
+                echo "Shutting Down in 1 Minute...<br>";
                 $shutdownOutput = shell_exec('/path/to/wrapper/with/command');
                 echo "<p>Use $shutdownOutput:1 as the address</p>";
             }
