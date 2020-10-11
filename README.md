@@ -3,12 +3,12 @@ Read this whole post before trying it out, there are choices to be made.
 
 Solution using a binary wrapper (with suid bit)
 1) Create a script (preferrably .sh) that contains what you want to be ran as root.
-
+`
 # cat > php_shell.sh <<CONTENT
   #!/bin/sh
   /sbin/service sshd restart
 CONTENT
-
+`
 
 2) This file should be owned by root, and since it will later run with root permissions make sure that only root has permission to write to the file.
 
@@ -55,5 +55,5 @@ php_root will now run with root permissions, and execute the commands specified 
 
 If you don't need to the option to easily change what commands that will be executed I'd recommend you to write the commands directly in wrapper.c under step 4. Then you don't need to have a binary executing a external script executing the commands in question.
 
-In wrapper.c, use system ("your shell command here"); to specify what commands you'd like to execute.
+In wrapper.c, use `system ("your shell command here");` to specify what commands you'd like to execute.
 
