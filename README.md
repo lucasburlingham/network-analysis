@@ -1,5 +1,6 @@
 ------ FROM https://stackoverflow.com/questions/8532304/execute-root-commands-via-php -----
-Read this whole post before trying it out, there are choices to be made.
+
+*Read this whole post before trying it out, there are choices to be made*
 
 Solution using a binary wrapper (with suid bit)
 1) Create a script (preferrably .sh) that contains what you want to be ran as root.
